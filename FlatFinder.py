@@ -1,14 +1,15 @@
+from DBShield import DBShield
 from APIGateway import APIGateway
 
 class FlatFinder:
 
-    DATABASE_NAME="FlatFinder.db"
     APIGW=None
+    DBSHLD=None
+    LONDON_LAT_LONG="51.50735400298231,-0.12775683066393959"
 
     def __init__(self) -> None:
-        DB = sl.connect(self.DATABASE_NAME)
-        quit()
         self.APIGW = APIGateway("credentials.json")
+        self.DBSHLD = DBShield("FlatFinder.db")
 
 if __name__ == "__main__":
     FlatFinder()
