@@ -1,11 +1,12 @@
+from typing import Union
 from DBShield import DBShield
 from APIGateway import APIGateway
 
 class FlatFinder:
 
-    APIGW=None
-    DBSHLD=None
-    LONDON_LAT_LONG="51.50735400298231,-0.12775683066393959"
+    APIGW: APIGateway
+    DBSHLD: DBShield
+    LONDON_LAT_LONG: tuple[float, float]=(51.50735400298231,-0.12775683066393959)
 
     def __init__(self) -> None:
         self.APIGW = APIGateway("credentials.json")
