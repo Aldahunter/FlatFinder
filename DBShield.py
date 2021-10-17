@@ -3,12 +3,12 @@ from sqlite3.dbapi2 import Connection
 
 class DBShield:
 
-    DATABASE_NAME: str
-    DB: Connection
+    _DATABASE_NAME: str
+    _DB: Connection
 
     def __init__(self, database_name: str) -> None:
-        self.DATABASE_NAME = database_name
-        self.connect_to_database()
+        self._DATABASE_NAME = database_name
+        self._connect_to_database()
     
-    def connect_to_database(self) -> None:
-        self.DB = sl.connect(self.DATABASE_NAME)
+    def _connect_to_database(self) -> None:
+        self._DB = sl.connect(self._DATABASE_NAME)
