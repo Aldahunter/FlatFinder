@@ -1,9 +1,9 @@
 import json
 import os
 from typing import NewType, Union, cast
-import requests
+from requests import get
 from requests.models import HTTPError, Request, Response
-from jsonType import CredentialsJSON, PlaceJSON, ResponseJSON
+from .jsonType import CredentialsJSON, PlaceJSON, ResponseJSON
 
 class APIGateway:
 
@@ -20,7 +20,7 @@ class APIGateway:
 
     def _get(self, search_path: str, query: 'APIGateway.APIQUERY') -> ResponseJSON:
         url: str = self._url_join(self._get_base_url(), search_path, "json")
-        response: Response = requests.get(url, params=query)
+        response: Response = get(url, params=query)
         self._raise_error_for_status(response)
         response_json: ResponseJSON = response.json()
         return response_json
