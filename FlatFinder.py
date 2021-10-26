@@ -1,4 +1,3 @@
-from typing import Union
 from DBShield import DBShield
 from APIGateway import APIGateway
 
