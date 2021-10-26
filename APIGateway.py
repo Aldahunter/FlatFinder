@@ -12,7 +12,7 @@ class APIGateway:
     _API_BASE_URL: str = "https://maps.googleapis.com/maps/api"
     _LOCATION_BIAS: Union[None, str] = None
     class RESTError(HTTPError): pass
-
+    
 
     def __init__(self, credentials_json: str) -> None:
         self._CREDENTIALS_JSON = credentials_json
@@ -24,6 +24,17 @@ class APIGateway:
         self._raise_error_for_status(response)
         response_json: ResponseJSON = response.json()
         return response_json
+    
+    def find_place(self, place: str) -> PlaceJSON:
+        query: 'APIGateway.APIQUERY' = self.APIQUERY(self,
+            input=place,
+            inputtype="textquery",
+            fields="name,place_id,formatted_address,business_status,geometry"
+            #language="en-GB",
+            #locationbias=LONDON_LAT_LONG}
+        )
+        response_json: ResponseJSON = self._get("place/findplacefromtext", query)
+        return cast(PlaceJSON, response_json)
     
     def _load_credentials(self) -> CredentialsJSON:
         with open(self._CREDENTIALS_JSON) as json_file:
