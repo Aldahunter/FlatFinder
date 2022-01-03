@@ -1,5 +1,5 @@
-from DBShield import DBShield
-from APIGateway import APIGateway
+from src.DBShield import DBShield
+from src.APIGateway import APIGateway
 
 class FlatFinder:
 
