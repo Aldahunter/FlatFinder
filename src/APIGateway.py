@@ -2,11 +2,10 @@ import json
 from datetime import datetime
 from typing import Union, cast
 from requests import get
-from requests.models import HTTPError, Request, Response
-from .jsonType import CredentialsJSON, PlaceJSON, ResponseJSON
 from requests.models import HTTPError, Response
 from .APIQuery import APIQuery
-from .jsonType import CredentialsJSON, PlaceJSON, ResponseJSON
+from .jsonType import CredentialsJSON, DistanceMatrixJSON, PlaceJSON, ResponseJSON
+
 
 class APIGateway:
 
@@ -36,6 +35,21 @@ class APIGateway:
         )
         response_json: ResponseJSON = self._get("place/findplacefromtext", query)
         return cast(PlaceJSON, response_json)
+        
+    def find_distances(self, origins: list[str], destinations: list[str]) -> DistanceMatrixJSON:
+        at = int(datetime.utcnow().replace(hour=9, minute=0, second=0, microsecond=0).timestamp())
+        print(f'arrival_time: [{type(at)}]', at)
+        query: APIQuery = APIQuery(
+            origins='|'.join('place_id:' + origin for origin in origins),
+            destinations='|'.join('place_id:' + destination for destination in destinations),
+            mode="transit",
+            arrival_time=str(at),
+            inputtype="textquery",
+            fields="name,place_id,formatted_address,business_status,geometry",
+            transit_mode="rail"
+        )
+        response_json: ResponseJSON = self._get("distancematrix", query)
+        return cast(DistanceMatrixJSON, response_json)
     
     
     ### Private methods ###
