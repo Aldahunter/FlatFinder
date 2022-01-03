@@ -4,6 +4,9 @@ from typing import NewType, Union, cast
 from requests import get
 from requests.models import HTTPError, Request, Response
 from .jsonType import CredentialsJSON, PlaceJSON, ResponseJSON
+from requests.models import HTTPError, Response
+from .APIQuery import APIQuery
+from .jsonType import CredentialsJSON, PlaceJSON, ResponseJSON
 
 class APIGateway:
 
@@ -12,21 +15,19 @@ class APIGateway:
     _API_BASE_URL: str = "https://maps.googleapis.com/maps/api"
     _LOCATION_BIAS: Union[None, str] = None
     class RESTError(HTTPError): pass
+
     
+    ### Dunder methods ###
 
     def __init__(self, credentials_json: str) -> None:
         self._CREDENTIALS_JSON = credentials_json
         self._get_api_key()
 
-    def _get(self, search_path: str, query: 'APIGateway.APIQUERY') -> ResponseJSON:
-        url: str = self._url_join(self._get_base_url(), search_path, "json")
-        response: Response = get(url, params=query)
-        self._raise_error_for_status(response)
-        response_json: ResponseJSON = response.json()
-        return response_json
+    
+    ### Public methods ###
     
     def find_place(self, place: str) -> PlaceJSON:
-        query: 'APIGateway.APIQUERY' = self.APIQUERY(self,
+        query: APIQuery = APIQuery(
             input=place,
             inputtype="textquery",
             fields="name,place_id,formatted_address,business_status,geometry"
@@ -35,6 +36,27 @@ class APIGateway:
         )
         response_json: ResponseJSON = self._get("place/findplacefromtext", query)
         return cast(PlaceJSON, response_json)
+    
+    
+    ### Private methods ###
+
+    def _get(self, search_path: str, query: APIQuery) -> ResponseJSON:
+        query.add_key(self._API_KEY)
+        query.add_location_bias(self._LOCATION_BIAS)
+        url: str = self._url_join(self._get_base_url(), search_path, "json")
+        response: Response = get(url, params=query)
+        print("URL: ", response.url)
+        return self._validate_response(response)
+    
+    def _validate_response(self, response: Response) -> ResponseJSON:
+        response.raise_for_status()
+        response_json: ResponseJSON = response.json()
+        if response_json['status'] != "OK":
+            err_msg: str = "{code} ERROR: {status} for url: {url}".format(code=response.status_code,
+                                                                          status=response_json['status'],
+                                                                          url=response.url)
+            raise self.RESTError(err_msg)
+        return response_json
     
     def _load_credentials(self) -> CredentialsJSON:
         with open(self._CREDENTIALS_JSON) as json_file:
@@ -56,27 +78,3 @@ class APIGateway:
         if 180 < lat_long_coords[1] <= 180:
             raise TypeError(f"The latitude '{lat_long_coords[0]}' must be between -180 and 180 degrees.")
         self._LOCATION_BIAS = ','.join(str(c) for c in lat_long_coords)
-    
-    class APIQUERY(dict[str, str]): 
-        def __init__(self, parent: 'APIGateway', **kwargs: str) -> None:
-            self._parent: APIGateway = parent
-            super().__init__(**kwargs)
-            self._add_key()
-            self._add_location_bias()
-    
-        def _add_key(self) -> None:
-            if (self.get("key", None) is None) and (self._parent._API_KEY is not None):
-                self['key'] = self._parent._API_KEY
-    
-        def _add_location_bias(self) -> None:
-            if (self.get("locationbias", None) is None) and (self._parent._LOCATION_BIAS is not None):
-                self['key'] = self._parent._LOCATION_BIAS
-    
-    def _raise_error_for_status(self, response: Response) -> None:
-        response.raise_for_status()
-        response_json: ResponseJSON = response.json()
-        if response_json['status'] != "OK":
-            err_msg: str = "{code} ERROR: {status} for url: {url}".format(code=response.status_code,
-                                                                          status=response_json['status'],
-                                                                          url=response.url)
-            raise self.RESTError(err_msg)
