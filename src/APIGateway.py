@@ -1,6 +1,6 @@
 import json
-import os
-from typing import NewType, Union, cast
+from datetime import datetime
+from typing import Union, cast
 from requests import get
 from requests.models import HTTPError, Request, Response
 from .jsonType import CredentialsJSON, PlaceJSON, ResponseJSON
@@ -73,8 +73,9 @@ class APIGateway:
         return r"/".join(s.strip('/') for s in args)
     
     def add_location_bias(self, lat_long_coords: tuple[float, float]) -> None:
-        if -90 < lat_long_coords[0] <= 90:
-            raise TypeError(f"The latitude '{lat_long_coords[0]}' must be between -90 and 90 degrees.")
-        if 180 < lat_long_coords[1] <= 180:
-            raise TypeError(f"The latitude '{lat_long_coords[0]}' must be between -180 and 180 degrees.")
+        if not -90 < lat_long_coords[0] <= 90:
+            raise ValueError(f"The latitude '{lat_long_coords[0]}' must be between -90 and 90 degrees.")
+        if not -180 < lat_long_coords[1] <= 180:
+            raise ValueError(f"The latitude '{lat_long_coords[0]}' must be between -180 and 180 degrees.")
         self._LOCATION_BIAS = ','.join(str(c) for c in lat_long_coords)
+    
