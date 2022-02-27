@@ -187,4 +187,7 @@ $RECYCLE.BIN/
 # Credentials File
 credentials.json
 
+# Data folder - containing database, etc
+data/*
+
 # End of https://www.toptal.com/developers/gitignore/api/windows,visualstudiocode,python
