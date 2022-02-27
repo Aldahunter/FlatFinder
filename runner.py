@@ -3,7 +3,7 @@ import typing
 import unittest
 import argparse
 
-this_file = os.path.join(__file__, '..', '.env', 'Scripts', 'activate_this.py')
+this_file = os.path.join(os.path.dirname(__file__), 'activate_this.py')
 exec(open(this_file).read(), {'__file__': this_file})
 
 class Args(argparse.Namespace):
