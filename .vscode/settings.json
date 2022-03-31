@@ -1,3 +1,12 @@
 {
-    "mypy.runUsingActiveInterpreter": true
+    "mypy.runUsingActiveInterpreter": true,
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "database": "${workspaceFolder:FlatFinder}/data/FlatFinder.db",
+            "name": "FlatFinder"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
 }

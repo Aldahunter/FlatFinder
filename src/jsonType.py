@@ -1,4 +1,4 @@
-from typing import TypedDict, Union
+from typing import TypedDict
 
 ### Base API Return JSONs
 class LatLongCoords(TypedDict):
@@ -19,8 +19,9 @@ class ResponseJSON(TypedDict):
     status: str
 
 class PlaceJSON(ResponseJSON):
-        candidates: list['_PlaceCandidates']
-class _PlaceCandidates(TypedDict, total=False):
+        candidates: list['PlaceCandidate']
+class PlaceCandidate(TypedDict, total=False):
+    business_status: str
     formatted_address: str
     geometry: Geometry
     name: str

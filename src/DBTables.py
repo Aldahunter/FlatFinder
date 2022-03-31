@@ -1,3 +1,4 @@
+import string
 from typing import Type, cast
 from sqlalchemy import Column, Float, ForeignKey, Integer, Sequence, String
 from sqlalchemy.ext.declarative import declarative_base
@@ -20,11 +21,11 @@ def _primary_column(sequence_name: str) -> Column[int]:
 ### Declarative Extensions ###
 class DBTables:
 
-    class Location(Base):
-        __tablename__: str = 'locations'
+    class LatLongCoords(Base):
+        __tablename__: str = 'lat_long_coords'
         __repr__ = _base_repr
     
-        id = _primary_column('location_id_seq')
+        id = _primary_column('lat_long_coords_id_seq')
         lat = Column(Float(6))
         long = Column(Float(6))
         
@@ -33,15 +34,15 @@ class DBTables:
         __repr__ = _base_repr
 
         id: Column[int] = _primary_column('viewport_id_seq')
-        northeast: Column[object] = Column(ForeignKey('locations.id'))
-        southwest: Column[object] = Column(ForeignKey('locations.id'))
+        northeast_id: Column[object] = Column(ForeignKey('lat_long_coords.id'))
+        southwest_id: Column[object] = Column(ForeignKey('lat_long_coords.id'))
         
     class Geometry(Base):
         __tablename__: str = 'geometries'
         __repr__ = _base_repr
 
         id = _primary_column('geometry_id_seq')
-        location_id: Column[object] = Column(ForeignKey('locations.id'))
+        location_id: Column[object] = Column(ForeignKey('lat_long_coords.id'))
         viewport_id: Column[object] = Column(ForeignKey('viewports.id'))
 
     class Place(Base):
@@ -49,6 +50,8 @@ class DBTables:
         __repr__ = _base_repr
 
         id = _primary_column('place_id_seq')
+        place_id: Column[object] = Column(String(200), index=True)
         name: Column[object] = Column(String(200), index=True)
         formatted_address: Column[object] = Column(String(200))
+        business_status: Column[object] = Column(String(12))
         geometry_id: Column[object] = Column(ForeignKey('geometries.id'))
