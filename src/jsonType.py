@@ -19,7 +19,7 @@ class ResponseJSON(TypedDict):
     status: str
 
 class PlaceJSON(ResponseJSON):
-        candidates: list['PlaceCandidate']
+    candidates: list['PlaceCandidate']
 class PlaceCandidate(TypedDict, total=False):
     business_status: str
     formatted_address: str

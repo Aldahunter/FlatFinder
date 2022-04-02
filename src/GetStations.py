@@ -1,5 +1,4 @@
 from src.DBShield import DBShield
-from src.DBTables import DBTables
 from src.jsonType import Geometry, LatLongCoords, PlaceCandidate, PlaceJSON, Viewport
 from .APIGateway import APIGateway
 from os.path import dirname, join as pathJoin
