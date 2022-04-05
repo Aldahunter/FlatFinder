@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "London E15 1DE, United Kingdom", "geometry": {"location": {"lat": 51.5413113, "lng": -0.0031944}, "viewport": {"northeast": {"lat": 51.54444389999998, "lng": -0.0007059499999999998}, "southwest": {"lat": 51.53800990000001, "lng": -0.005127349999999999}}}, "name": "Stratford", "place_id": "ChIJV9Gl0WMddkgREPjdwRs8_N8"}

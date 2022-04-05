@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "St John's Hill, London SW11 2QP, United Kingdom", "geometry": {"location": {"lat": 51.4636666, "lng": -0.1690483}, "viewport": {"northeast": {"lat": 51.46655885000001, "lng": -0.1675369}, "southwest": {"lat": 51.46236905000001, "lng": -0.1727521}}}, "name": "Clapham Junction", "place_id": "ChIJB2GtJ5oFdkgRFBui2ewbZfQ"}

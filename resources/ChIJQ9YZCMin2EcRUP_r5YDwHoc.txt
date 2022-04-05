@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "Green St, London E13 9AP, United Kingdom", "geometry": {"location": {"lat": 51.5353424, "lng": 0.0352766}, "viewport": {"northeast": {"lat": 51.53665437989272, "lng": 0.03661457989272222}, "southwest": {"lat": 51.53395472010728, "lng": 0.03391492010727779}}}, "name": "Upton Park", "place_id": "ChIJQ9YZCMin2EcRUP_r5YDwHoc"}

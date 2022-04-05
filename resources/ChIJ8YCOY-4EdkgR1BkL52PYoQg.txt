@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "London SW8 2LN, United Kingdom", "geometry": {"location": {"lat": 51.4859727, "lng": -0.1238598}, "viewport": {"northeast": {"lat": 51.48728187989273, "lng": -0.12234235}, "southwest": {"lat": 51.48458222010728, "lng": -0.12574055}}}, "name": "Vauxhall", "place_id": "ChIJ8YCOY-4EdkgR1BkL52PYoQg"}

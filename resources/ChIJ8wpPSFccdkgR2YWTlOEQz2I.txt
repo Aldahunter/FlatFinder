@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "London E5 9JP, United Kingdom", "geometry": {"location": {"lat": 51.5614205, "lng": -0.0569788}, "viewport": {"northeast": {"lat": 51.56278357989272, "lng": -0.05578352010727778}, "southwest": {"lat": 51.56008392010728, "lng": -0.05848317989272221}}}, "name": "Clapton", "place_id": "ChIJ8wpPSFccdkgR2YWTlOEQz2I"}

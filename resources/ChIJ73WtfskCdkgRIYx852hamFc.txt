@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "London, United Kingdom", "geometry": {"location": {"lat": 51.50942999999999, "lng": -0.02672}, "viewport": {"northeast": {"lat": 51.51075452989271, "lng": -0.02535112010727779}, "southwest": {"lat": 51.50805487010727, "lng": -0.02805077989272222}}}, "name": "Westferry DLR station", "place_id": "ChIJ73WtfskCdkgRIYx852hamFc"}

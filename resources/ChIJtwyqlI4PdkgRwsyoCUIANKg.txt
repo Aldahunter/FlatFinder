@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "London SW5 9JX, United Kingdom", "geometry": {"location": {"lat": 51.4872591, "lng": -0.1955188}, "viewport": {"northeast": {"lat": 51.48869017989271, "lng": -0.1942897201072778}, "southwest": {"lat": 51.48599052010727, "lng": -0.1969893798927222}}}, "name": "West Brompton", "place_id": "ChIJtwyqlI4PdkgRwsyoCUIANKg"}

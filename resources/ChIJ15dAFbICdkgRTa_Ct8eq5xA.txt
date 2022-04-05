@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "London E14 0EH, United Kingdom", "geometry": {"location": {"lat": 51.5109882, "lng": -0.0130756}, "viewport": {"northeast": {"lat": 51.51245222989272, "lng": -0.01173397010727779}, "southwest": {"lat": 51.50975257010728, "lng": -0.01443362989272222}}}, "name": "All Saints", "place_id": "ChIJ15dAFbICdkgRTa_Ct8eq5xA"}

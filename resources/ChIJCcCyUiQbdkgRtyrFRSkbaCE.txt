@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "London NW1 2DU, United Kingdom", "geometry": {"location": {"lat": 51.5280243, "lng": -0.1333409}, "viewport": {"northeast": {"lat": 51.52923547989272, "lng": -0.13082165}, "southwest": {"lat": 51.52653582010727, "lng": -0.13520145}}}, "name": "Euston", "place_id": "ChIJCcCyUiQbdkgRtyrFRSkbaCE"}

@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "Plaistow Rd, London E13 0DY, United Kingdom", "geometry": {"location": {"lat": 51.5312413, "lng": 0.0178311}, "viewport": {"northeast": {"lat": 51.53270047989272, "lng": 0.01930132989272221}, "southwest": {"lat": 51.53000082010728, "lng": 0.01660167010727778}}}, "name": "Plaistow", "place_id": "ChIJja-5B-yn2EcRdzkBpW5spVk"}

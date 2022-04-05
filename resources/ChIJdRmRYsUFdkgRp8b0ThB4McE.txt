@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "London, United Kingdom", "geometry": {"location": {"lat": 51.44322, "lng": -0.1524}, "viewport": {"northeast": {"lat": 51.44460942989272, "lng": -0.1510183701072778}, "southwest": {"lat": 51.44190977010727, "lng": -0.1537180298927222}}}, "name": "Balham Station", "place_id": "ChIJdRmRYsUFdkgRp8b0ThB4McE"}

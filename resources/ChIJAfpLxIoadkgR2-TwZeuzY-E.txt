@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "London NW3 2QD, United Kingdom", "geometry": {"location": {"lat": 51.5552509, "lng": -0.1658907}, "viewport": {"northeast": {"lat": 51.55668372989273, "lng": -0.1645304201072778}, "southwest": {"lat": 51.55398407010728, "lng": -0.1672300798927222}}}, "name": "Hampstead Heath", "place_id": "ChIJAfpLxIoadkgR2-TwZeuzY-E"}

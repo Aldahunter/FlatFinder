@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "Richmond TW9 3PZ, United Kingdom", "geometry": {"location": {"lat": 51.477085, "lng": -0.2851495}, "viewport": {"northeast": {"lat": 51.47834987989272, "lng": -0.2837874201072778}, "southwest": {"lat": 51.47565022010728, "lng": -0.2864870798927223}}}, "name": "Kew Gardens", "place_id": "ChIJI_stMtQNdkgRnsm2FcGXXJI"}

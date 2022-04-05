@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "London W5 2NU, United Kingdom", "geometry": {"location": {"lat": 51.5149142, "lng": -0.3018846}, "viewport": {"northeast": {"lat": 51.51624717989272, "lng": -0.3007423701072778}, "southwest": {"lat": 51.51354752010727, "lng": -0.3034420298927222}}}, "name": "Ealing Broadway", "place_id": "ChIJPwSWDAoSdkgRrhZW_HIVKMI"}

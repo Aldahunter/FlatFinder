@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "London, United Kingdom", "geometry": {"location": {"lat": 51.5152843, "lng": -0.0722437}, "viewport": {"northeast": {"lat": 51.51656122989272, "lng": -0.07082462010727777}, "southwest": {"lat": 51.51386157010728, "lng": -0.07352427989272221}}}, "name": "Aldgate East tube station", "place_id": "ChIJCSwENLUcdkgRcxY424ZbDSM"}

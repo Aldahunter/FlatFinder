@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "London N16 5AG, United Kingdom", "geometry": {"location": {"lat": 51.5744117, "lng": -0.0765542}, "viewport": {"northeast": {"lat": 51.57587837989272, "lng": -0.07503487010727779}, "southwest": {"lat": 51.57317872010727, "lng": -0.07773452989272223}}}, "name": "Stamford Hill", "place_id": "ChIJz-gpdGwcdkgRbbuQxbIk4rY"}

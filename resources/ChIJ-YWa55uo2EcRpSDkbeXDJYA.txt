@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "London, United Kingdom", "geometry": {"location": {"lat": 51.50847, "lng": 0.06394999999999999}, "viewport": {"northeast": {"lat": 51.50981982989272, "lng": 0.06529982989272222}, "southwest": {"lat": 51.50712017010727, "lng": 0.06260017010727778}}}, "name": "Cyprus DLR station", "place_id": "ChIJ-YWa55uo2EcRpSDkbeXDJYA"}

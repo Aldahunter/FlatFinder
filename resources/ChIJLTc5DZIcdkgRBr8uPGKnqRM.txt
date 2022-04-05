@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "London E8 3DE, United Kingdom", "geometry": {"location": {"lat": 51.5459999, "lng": -0.0751485}, "viewport": {"northeast": {"lat": 51.54718272989273, "lng": -0.07413517010727778}, "southwest": {"lat": 51.54448307010728, "lng": -0.07683482989272222}}}, "name": "Dalston Junction", "place_id": "ChIJLTc5DZIcdkgRBr8uPGKnqRM"}

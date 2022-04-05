@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "London E14 0AF, United Kingdom", "geometry": {"location": {"lat": 51.507794, "lng": -0.0176126}, "viewport": {"northeast": {"lat": 51.50905822989272, "lng": -0.01646392010727778}, "southwest": {"lat": 51.50635857010727, "lng": -0.01916357989272222}}}, "name": "Poplar", "place_id": "ChIJi-aPLbECdkgRPFSGbBnG-rs"}

@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "Pinner Rd, Watford WD19 4EA, United Kingdom", "geometry": {"location": {"lat": 51.64583529999999, "lng": -0.3853817}, "viewport": {"northeast": {"lat": 51.64707147989272, "lng": -0.38326365}, "southwest": {"lat": 51.64437182010728, "lng": -0.38642225}}}, "name": "Bushey", "place_id": "ChIJoXgzo9ZqdkgRQ-OHmnK1Unc"}

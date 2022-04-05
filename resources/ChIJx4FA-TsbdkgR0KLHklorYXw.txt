@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "Euston Rd, London N1 9AL, United Kingdom", "geometry": {"location": {"lat": 51.530663, "lng": -0.123169}, "viewport": {"northeast": {"lat": 51.53479805, "lng": -0.11748125}, "southwest": {"lat": 51.52835544999999, "lng": -0.1290022499999999}}}, "name": "King's Cross St. Pancras", "place_id": "ChIJx4FA-TsbdkgR0KLHklorYXw"}

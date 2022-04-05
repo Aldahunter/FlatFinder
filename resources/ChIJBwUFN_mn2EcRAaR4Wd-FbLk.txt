@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "London E16 4BL, United Kingdom", "geometry": {"location": {"lat": 51.5207507, "lng": 0.0043191}, "viewport": {"northeast": {"lat": 51.52208567989272, "lng": 0.005555929892722216}, "southwest": {"lat": 51.51938602010727, "lng": 0.002856270107277784}}}, "name": "Star Lane", "place_id": "ChIJBwUFN_mn2EcRAaR4Wd-FbLk"}

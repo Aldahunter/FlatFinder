@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "London SE16 4LD, United Kingdom", "geometry": {"location": {"lat": 51.5008166, "lng": -0.0519207}, "viewport": {"northeast": {"lat": 51.50208717989273, "lng": -0.05071242010727778}, "southwest": {"lat": 51.49938752010728, "lng": -0.05341207989272221}}}, "name": "Rotherhithe", "place_id": "ChIJx1wUlyYDdkgR08nWveZUfp4"}

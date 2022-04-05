@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "Northwood HA6 1NZ, United Kingdom", "geometry": {"location": {"lat": 51.6006218, "lng": -0.4093582}, "viewport": {"northeast": {"lat": 51.60206607989273, "lng": -0.4081048201072778}, "southwest": {"lat": 51.59936642010728, "lng": -0.4108044798927223}}}, "name": "Northwood Hills", "place_id": "ChIJtYDZSGJrdkgRxFqXqKWHpE8"}

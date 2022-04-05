@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "London SE13 5FQ, United Kingdom", "geometry": {"location": {"lat": 51.4642185, "lng": -0.0124895}, "viewport": {"northeast": {"lat": 51.46554132989272, "lng": -0.01125162010727778}, "southwest": {"lat": 51.46284167010727, "lng": -0.01395127989272221}}}, "name": "Lewisham (Stop B)", "place_id": "ChIJnYdoOmUCdkgRzKzrzO-Eob4"}

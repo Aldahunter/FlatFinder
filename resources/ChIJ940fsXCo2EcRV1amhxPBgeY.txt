@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "London E16 1FR, United Kingdom", "geometry": {"location": {"lat": 51.5093322, "lng": 0.034185}, "viewport": {"northeast": {"lat": 51.51067067989272, "lng": 0.03532287989272221}, "southwest": {"lat": 51.50797102010728, "lng": 0.03262322010727779}}}, "name": "Prince Regent", "place_id": "ChIJ940fsXCo2EcRV1amhxPBgeY"}

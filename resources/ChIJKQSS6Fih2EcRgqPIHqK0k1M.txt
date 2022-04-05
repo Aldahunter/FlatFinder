@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "Chigwell, United Kingdom", "geometry": {"location": {"lat": 51.6133964, "lng": 0.0921236}, "viewport": {"northeast": {"lat": 51.61479552989272, "lng": 0.0934370298927222}, "southwest": {"lat": 51.61209587010728, "lng": 0.09073737010727777}}}, "name": "Grange Hill tube station", "place_id": "ChIJKQSS6Fih2EcRgqPIHqK0k1M"}

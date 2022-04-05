@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "London, United Kingdom", "geometry": {"location": {"lat": 51.5768423, "lng": -0.2133947}, "viewport": {"northeast": {"lat": 51.57811372989272, "lng": -0.2119362201072778}, "southwest": {"lat": 51.57541407010727, "lng": -0.2146358798927222}}}, "name": "Brent Cross tube station", "place_id": "ChIJazVcvuoQdkgRgGPP3sJDAi0"}

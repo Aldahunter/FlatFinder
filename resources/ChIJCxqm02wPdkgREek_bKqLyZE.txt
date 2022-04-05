@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "London, United Kingdom", "geometry": {"location": {"lat": 51.4592, "lng": -0.21098}, "viewport": {"northeast": {"lat": 51.46064582989273, "lng": -0.2095496701072778}, "southwest": {"lat": 51.45794617010728, "lng": -0.2122493298927222}}}, "name": "East Putney tube station", "place_id": "ChIJCxqm02wPdkgREek_bKqLyZE"}

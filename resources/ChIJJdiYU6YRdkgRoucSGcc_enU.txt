@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "London NW10 1PH, United Kingdom", "geometry": {"location": {"lat": 51.55403339999999, "lng": -0.2497321}, "viewport": {"northeast": {"lat": 51.55538097989272, "lng": -0.2483399201072777}, "southwest": {"lat": 51.55268132010727, "lng": -0.2510395798927222}}}, "name": "Neasden", "place_id": "ChIJJdiYU6YRdkgRoucSGcc_enU"}

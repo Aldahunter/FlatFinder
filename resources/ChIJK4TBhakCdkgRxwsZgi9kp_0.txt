@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "London E14 9QN, United Kingdom", "geometry": {"location": {"lat": 51.5093325, "lng": -0.0022012}, "viewport": {"northeast": {"lat": 51.51099857989272, "lng": -0.0002570500000000005}, "southwest": {"lat": 51.50829892010728, "lng": -0.005084049999999998}}}, "name": "East India", "place_id": "ChIJK4TBhakCdkgRxwsZgi9kp_0"}

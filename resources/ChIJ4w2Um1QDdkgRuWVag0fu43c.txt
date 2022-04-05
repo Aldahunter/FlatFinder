@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "London EC3V 9AA, United Kingdom", "geometry": {"location": {"lat": 51.513233, "lng": -0.088489}, "viewport": {"northeast": {"lat": 51.51451137989272, "lng": -0.08708362010727777}, "southwest": {"lat": 51.51181172010728, "lng": -0.08978327989272221}}}, "name": "Bank", "place_id": "ChIJ4w2Um1QDdkgRuWVag0fu43c"}

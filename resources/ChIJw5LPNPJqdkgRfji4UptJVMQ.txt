@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "Watford WD18 7LE, United Kingdom", "geometry": {"location": {"lat": 51.6575024, "lng": -0.4172028}, "viewport": {"northeast": {"lat": 51.65884127989272, "lng": -0.4158676701072778}, "southwest": {"lat": 51.65614162010728, "lng": -0.4185673298927222}}}, "name": "Watford", "place_id": "ChIJw5LPNPJqdkgRfji4UptJVMQ"}

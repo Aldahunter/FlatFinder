@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "London SW1A 2JR, United Kingdom", "geometry": {"location": {"lat": 51.501343, "lng": -0.1248413}, "viewport": {"northeast": {"lat": 51.50245232989273, "lng": -0.1222621}, "southwest": {"lat": 51.49975267010728, "lng": -0.1278873}}}, "name": "Westminster", "place_id": "ChIJ0160ScQEdkgR3zgV673t8yU"}

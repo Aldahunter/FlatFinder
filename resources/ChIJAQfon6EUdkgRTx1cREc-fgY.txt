@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "Harrow HA2 6NB, United Kingdom", "geometry": {"location": {"lat": 51.6027022, "lng": -0.3573412}, "viewport": {"northeast": {"lat": 51.60386732989272, "lng": -0.3556454201072778}, "southwest": {"lat": 51.60116767010727, "lng": -0.3583450798927223}}}, "name": "Headstone Lane", "place_id": "ChIJAQfon6EUdkgRTx1cREc-fgY"}

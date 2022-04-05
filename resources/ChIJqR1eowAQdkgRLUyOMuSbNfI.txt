@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "London, United Kingdom", "geometry": {"location": {"lat": 51.51911, "lng": -0.18872}, "viewport": {"northeast": {"lat": 51.52045982989272, "lng": -0.1873701701072778}, "southwest": {"lat": 51.51776017010728, "lng": -0.1900698298927222}}}, "name": "Royal Oak tube station", "place_id": "ChIJqR1eowAQdkgRLUyOMuSbNfI"}

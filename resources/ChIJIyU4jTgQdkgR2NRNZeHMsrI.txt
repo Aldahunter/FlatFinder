@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "London NW10 5RU, United Kingdom", "geometry": {"location": {"lat": 51.534513, "lng": -0.2197528}, "viewport": {"northeast": {"lat": 51.53592502989272, "lng": -0.2183928701072778}, "southwest": {"lat": 51.53322537010728, "lng": -0.2210925298927222}}}, "name": "Kensal Rise", "place_id": "ChIJIyU4jTgQdkgR2NRNZeHMsrI"}

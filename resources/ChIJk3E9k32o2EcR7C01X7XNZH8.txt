@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "London E16 2QD, United Kingdom", "geometry": {"location": {"lat": 51.5084278, "lng": 0.0460274}, "viewport": {"northeast": {"lat": 51.50959367989272, "lng": 0.04691667989272221}, "southwest": {"lat": 51.50689402010728, "lng": 0.04421702010727779}}}, "name": "Royal Albert", "place_id": "ChIJk3E9k32o2EcR7C01X7XNZH8"}

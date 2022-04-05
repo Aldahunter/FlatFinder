@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "London E14 5JP, United Kingdom", "geometry": {"location": {"lat": 51.5029405, "lng": -0.02145}, "viewport": {"northeast": {"lat": 51.50459032989273, "lng": -0.01999647010727778}, "southwest": {"lat": 51.50189067010728, "lng": -0.02269612989272221}}}, "name": "Heron Quays", "place_id": "ChIJHxawObgCdkgR2jQ3P00Odns"}

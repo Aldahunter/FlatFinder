@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "London NW6 6NL, United Kingdom", "geometry": {"location": {"lat": 51.53418869999999, "lng": -0.2046199}, "viewport": {"northeast": {"lat": 51.53555567989272, "lng": -0.2031972701072778}, "southwest": {"lat": 51.53285602010727, "lng": -0.2058969298927222}}}, "name": "Queen's Park", "place_id": "ChIJBxWJbBMQdkgRohHx1OSn9Hc"}

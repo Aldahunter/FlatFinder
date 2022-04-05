@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "London W6 9YA, United Kingdom", "geometry": {"location": {"lat": 51.49220769999999, "lng": -0.2236868}, "viewport": {"northeast": {"lat": 51.49381864999999, "lng": -0.2228509701072778}, "southwest": {"lat": 51.49054405, "lng": -0.2255506298927223}}}, "name": "Hammersmith", "place_id": "ChIJH8xAm7cPdkgRzkghb1eoPCs"}

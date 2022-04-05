@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "London, United Kingdom", "geometry": {"location": {"lat": 51.5125451, "lng": -0.0396954}, "viewport": {"northeast": {"lat": 51.51389492989271, "lng": -0.03834557010727779}, "southwest": {"lat": 51.51119527010727, "lng": -0.04104522989272221}}}, "name": "Limehouse station", "place_id": "ChIJaXrgdNMCdkgRWzobxWpQ6qA"}

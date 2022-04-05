@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "London SE11 4JQ, United Kingdom", "geometry": {"location": {"lat": 51.48827370000001, "lng": -0.105614}, "viewport": {"northeast": {"lat": 51.48958362989273, "lng": -0.1042847701072778}, "southwest": {"lat": 51.48688397010728, "lng": -0.1069844298927222}}}, "name": "Kennington", "place_id": "ChIJl55TqZAEdkgRCqQtpLZu6r0"}

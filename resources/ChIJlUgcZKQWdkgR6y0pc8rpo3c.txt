@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "Edgware HA8 7AW, United Kingdom", "geometry": {"location": {"lat": 51.6134923, "lng": -0.2753661}, "viewport": {"northeast": {"lat": 51.61487442989272, "lng": -0.2742649701072777}, "southwest": {"lat": 51.61217477010727, "lng": -0.2769646298927222}}}, "name": "Edgware", "place_id": "ChIJlUgcZKQWdkgR6y0pc8rpo3c"}

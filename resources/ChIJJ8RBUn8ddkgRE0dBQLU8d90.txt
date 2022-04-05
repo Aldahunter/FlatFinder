@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "High Rd, London E10 5PS, United Kingdom", "geometry": {"location": {"lat": 51.5565242, "lng": -0.0056197}, "viewport": {"northeast": {"lat": 51.55785112989272, "lng": -0.004392020107277784}, "southwest": {"lat": 51.55515147010727, "lng": -0.007091679892722215}}}, "name": "Leyton", "place_id": "ChIJJ8RBUn8ddkgRE0dBQLU8d90"}

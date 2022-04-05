@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "York Rd, London SE1 7ND, United Kingdom", "geometry": {"location": {"lat": 51.5024413, "lng": -0.1134282}, "viewport": {"northeast": {"lat": 51.5046919, "lng": -0.10899385}, "southwest": {"lat": 51.5016911, "lng": -0.11735765}}}, "name": "Waterloo", "place_id": "ChIJF4o0NLgEdkgRjBPR6vZ4dsg"}

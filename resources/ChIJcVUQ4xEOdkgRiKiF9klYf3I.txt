@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "London W3 8TG, United Kingdom", "geometry": {"location": {"lat": 51.4994886, "lng": -0.2700235}, "viewport": {"northeast": {"lat": 51.50066097989272, "lng": -0.2689424201072778}, "southwest": {"lat": 51.49796132010727, "lng": -0.2716420798927222}}}, "name": "South Acton", "place_id": "ChIJcVUQ4xEOdkgRiKiF9klYf3I"}

@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "Stanmore HA7 4PD, United Kingdom", "geometry": {"location": {"lat": 51.6196644, "lng": -0.3030833}, "viewport": {"northeast": {"lat": 51.62108792989272, "lng": -0.3007894999999999}, "southwest": {"lat": 51.61838827010728, "lng": -0.3045967}}}, "name": "Stanmore", "place_id": "ChIJzdeGJz4UdkgRKe6ou5xQDcM"}

@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "London NW10 7AA, United Kingdom", "geometry": {"location": {"lat": 51.5362222, "lng": -0.2572527}, "viewport": {"northeast": {"lat": 51.53761917989272, "lng": -0.2557912701072778}, "southwest": {"lat": 51.53491952010727, "lng": -0.2584909298927223}}}, "name": "Harlesden", "place_id": "ChIJM9eL8b8RdkgRqCdnMGKL2Iw"}

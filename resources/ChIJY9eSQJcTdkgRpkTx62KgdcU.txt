@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "Kenton Rd, Harrow HA3 0AZ, United Kingdom", "geometry": {"location": {"lat": 51.5818443, "lng": -0.3171355}, "viewport": {"northeast": {"lat": 51.58328197989272, "lng": -0.3158093701072777}, "southwest": {"lat": 51.58058232010727, "lng": -0.3185090298927222}}}, "name": "Kenton", "place_id": "ChIJY9eSQJcTdkgRpkTx62KgdcU"}

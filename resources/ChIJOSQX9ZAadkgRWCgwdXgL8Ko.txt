@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "Finchley Rd, London NW3 6HY, United Kingdom", "geometry": {"location": {"lat": 51.5436717, "lng": -0.1745194}, "viewport": {"northeast": {"lat": 51.54476642989273, "lng": -0.17353185}, "southwest": {"lat": 51.54206677010728, "lng": -0.17692045}}}, "name": "Swiss Cottage", "place_id": "ChIJOSQX9ZAadkgRWCgwdXgL8Ko"}

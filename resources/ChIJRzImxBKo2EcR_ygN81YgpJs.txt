@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "London E16 1TX, United Kingdom", "geometry": {"location": {"lat": 51.502838, "lng": 0.022487}, "viewport": {"northeast": {"lat": 51.50421027989272, "lng": 0.02427562989272222}, "southwest": {"lat": 51.50151062010728, "lng": 0.02157597010727778}}}, "name": "West Silvertown", "place_id": "ChIJRzImxBKo2EcR_ygN81YgpJs"}

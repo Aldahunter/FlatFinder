@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "Northolt UB5 4AA, United Kingdom", "geometry": {"location": {"lat": 51.5481535, "lng": -0.3683814}, "viewport": {"northeast": {"lat": 51.54944072989272, "lng": -0.3670186201072778}, "southwest": {"lat": 51.54674107010727, "lng": -0.3697182798927222}}}, "name": "Northolt", "place_id": "ChIJ7zRtrNESdkgRIwlVkoJXvVk"}

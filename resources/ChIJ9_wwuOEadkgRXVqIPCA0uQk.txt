@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "London NW1 8QL, United Kingdom", "geometry": {"location": {"lat": 51.5393847, "lng": -0.1426546}, "viewport": {"northeast": {"lat": 51.54065217989272, "lng": -0.1412842701072778}, "southwest": {"lat": 51.53795252010728, "lng": -0.1439839298927222}}}, "name": "Camden Town", "place_id": "ChIJ9_wwuOEadkgRXVqIPCA0uQk"}

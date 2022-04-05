@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "High St N, London N14 5BJ, United Kingdom", "geometry": {"location": {"lat": 51.632317, "lng": -0.12779}, "viewport": {"northeast": {"lat": 51.63378122989272, "lng": -0.1264182201072778}, "southwest": {"lat": 51.63108157010728, "lng": -0.1291178798927222}}}, "name": "Southgate", "place_id": "ChIJP88g7BoZdkgRVfH6ywn7tkw"}

@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "London EC1Y 1BE, United Kingdom", "geometry": {"location": {"lat": 51.5256719, "lng": -0.0874922}, "viewport": {"northeast": {"lat": 51.52704342989272, "lng": -0.08567075000000002}, "southwest": {"lat": 51.52434377010728, "lng": -0.08934974999999998}}}, "name": "Old Street", "place_id": "ChIJzREMBKYcdkgRT9taU6biunM"}

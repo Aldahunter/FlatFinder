@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "London E9 5SE, United Kingdom", "geometry": {"location": {"lat": 51.5470366, "lng": -0.0423623}, "viewport": {"northeast": {"lat": 51.54835932989272, "lng": -0.04080787010727779}, "southwest": {"lat": 51.54565967010728, "lng": -0.04350752989272222}}}, "name": "Homerton", "place_id": "ChIJYwwZSQMddkgRYop7TLNwaog"}

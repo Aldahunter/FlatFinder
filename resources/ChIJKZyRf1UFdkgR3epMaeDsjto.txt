@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "Queensway, London W2 4RH, United Kingdom", "geometry": {"location": {"lat": 51.5123525, "lng": -0.1877694}, "viewport": {"northeast": {"lat": 51.51372267989272, "lng": -0.1863026701072778}, "southwest": {"lat": 51.51102302010727, "lng": -0.1890023298927222}}}, "name": "Bayswater", "place_id": "ChIJKZyRf1UFdkgR3epMaeDsjto"}

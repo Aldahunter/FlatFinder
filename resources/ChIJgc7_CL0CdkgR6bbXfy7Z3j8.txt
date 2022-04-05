@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "London, United Kingdom", "geometry": {"location": {"lat": 51.495794, "lng": -0.0144615}, "viewport": {"northeast": {"lat": 51.49714382989272, "lng": -0.01311167010727778}, "southwest": {"lat": 51.49444417010728, "lng": -0.01581132989272221}}}, "name": "Crossharbour DLR station", "place_id": "ChIJgc7_CL0CdkgR6bbXfy7Z3j8"}

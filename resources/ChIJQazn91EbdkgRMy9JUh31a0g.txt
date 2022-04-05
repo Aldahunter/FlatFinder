@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "London EC1M 6BY, United Kingdom", "geometry": {"location": {"lat": 51.52013820000001, "lng": -0.1047511}, "viewport": {"northeast": {"lat": 51.52195242989272, "lng": -0.1034740201072778}, "southwest": {"lat": 51.51925277010727, "lng": -0.1061736798927222}}}, "name": "Farringdon", "place_id": "ChIJQazn91EbdkgRMy9JUh31a0g"}

@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "London E16 1BZ, United Kingdom", "geometry": {"location": {"lat": 51.5093346, "lng": 0.0185375}, "viewport": {"northeast": {"lat": 51.51064412989272, "lng": 0.01997497989272221}, "southwest": {"lat": 51.50794447010728, "lng": 0.01727532010727778}}}, "name": "Royal Victoria", "place_id": "ChIJcVLgDgyo2EcRd4PXrBK6Xg0"}

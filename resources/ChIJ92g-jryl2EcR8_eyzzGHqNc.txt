@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "Gale St, Dagenham RM9 4TP, United Kingdom", "geometry": {"location": {"lat": 51.5403634, "lng": 0.1273901}, "viewport": {"northeast": {"lat": 51.54173267989272, "lng": 0.1288699798927222}, "southwest": {"lat": 51.53903302010728, "lng": 0.1261703201072778}}}, "name": "Becontree", "place_id": "ChIJ92g-jryl2EcR8_eyzzGHqNc"}

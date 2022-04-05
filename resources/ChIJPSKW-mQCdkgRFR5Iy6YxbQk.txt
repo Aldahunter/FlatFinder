@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "London, United Kingdom", "geometry": {"location": {"lat": 51.4652098, "lng": -0.0131213}, "viewport": {"northeast": {"lat": 51.46659457989271, "lng": -0.01178602010727778}, "southwest": {"lat": 51.46389492010727, "lng": -0.01448567989272221}}}, "name": "Lewisham station", "place_id": "ChIJPSKW-mQCdkgRFR5Iy6YxbQk"}

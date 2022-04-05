@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "London NW8 6DN, United Kingdom", "geometry": {"location": {"lat": 51.5347066, "lng": -0.1740969}, "viewport": {"northeast": {"lat": 51.53591322989272, "lng": -0.1728367201072778}, "southwest": {"lat": 51.53321357010728, "lng": -0.1755363798927222}}}, "name": "St. John's Wood", "place_id": "ChIJf1rADL0adkgREW-1BJxy_Iw"}

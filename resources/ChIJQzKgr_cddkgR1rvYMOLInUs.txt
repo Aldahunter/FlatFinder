@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "London E17 3NZ, United Kingdom", "geometry": {"location": {"lat": 51.5864412, "lng": -0.0024314}, "viewport": {"northeast": {"lat": 51.58789122989272, "lng": -0.001040820107277784}, "southwest": {"lat": 51.58519157010728, "lng": -0.003740479892722215}}}, "name": "Wood Street", "place_id": "ChIJQzKgr_cddkgR1rvYMOLInUs"}

@@ -69,8 +69,8 @@ East Ham
 East Putney
 Eastcote
 Edgware
-Edgware Road
-Edgware Road
+Edgware Road (Bakerloo)
+Edgware Road (Circle)
 Elephant & Castle
 Elm Park
 Embankment
@@ -94,8 +94,8 @@ Green Park
 Greenford
 Gunnersbury
 Hainault
-Hammersmith
-Hammersmith
+Hammersmith (Circle)
+Hammersmith (District and Piccadilly)
 Hampstead
 Hanger Lane
 Harlesden
@@ -121,10 +121,10 @@ Hounslow West
 Hyde Park Corner
 Ickenham
 Kennington
-Kensal Green
+Kensal Green (Bakerloo)
 Kensington (Olympia)
 Kentish Town
-Kenton
+Kenton (Kenton Rd) 
 Kew Gardens
 Kilburn
 Kilburn Park
@@ -173,7 +173,6 @@ Osterley
 Oval
 Oxford Circus
 Paddington
-Paddington
 Park Royal
 Parsons Green
 Perivale
@@ -206,7 +205,7 @@ Snaresbrook
 South Ealing
 South Harrow
 South Kensington
-South Kenton
+South Kenton (Bakerloo)
 South Ruislip
 South Wimbledon
 South Woodford
@@ -282,7 +281,6 @@ Blackwall
 Bow Church
 Canary Wharf
 Canning Town
-Canning Town
 Crossharbour
 Custom House for ExCeL
 Cutty Sark for Maritime Greenwich
@@ -309,9 +307,9 @@ Royal Albert
 Royal Victoria
 Shadwell
 South Quay
+
 Star Lane
-Stratford
-Stratford
+Stratford Station
 Stratford High Street
 Stratford International
 Tower Gateway

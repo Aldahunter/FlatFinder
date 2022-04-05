@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "Enfield EN1 1BA, United Kingdom", "geometry": {"location": {"lat": 51.641542, "lng": -0.0691331}, "viewport": {"northeast": {"lat": 51.64285652989272, "lng": -0.06795797010727779}, "southwest": {"lat": 51.64015687010728, "lng": -0.07065762989272223}}}, "name": "Bush Hill Park", "place_id": "ChIJAQIV3h8fdkgRX3rZHT-9HT8"}

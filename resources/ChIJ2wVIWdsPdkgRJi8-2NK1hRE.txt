@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "London W12 8ND, United Kingdom", "geometry": {"location": {"lat": 51.5051413, "lng": -0.2176755}, "viewport": {"northeast": {"lat": 51.50681842989272, "lng": -0.2165827201072778}, "southwest": {"lat": 51.50411877010728, "lng": -0.2192823798927222}}}, "name": "Shepherd's Bush", "place_id": "ChIJ2wVIWdsPdkgRJi8-2NK1hRE"}

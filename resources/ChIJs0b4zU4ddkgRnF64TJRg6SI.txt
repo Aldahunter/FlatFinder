@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "London E3 3QY, United Kingdom", "geometry": {"location": {"lat": 51.5225628, "lng": -0.0174793}, "viewport": {"northeast": {"lat": 51.52391887989272, "lng": -0.01623742010727779}, "southwest": {"lat": 51.52121922010728, "lng": -0.01893707989272222}}}, "name": "Devons Road", "place_id": "ChIJs0b4zU4ddkgRnF64TJRg6SI"}

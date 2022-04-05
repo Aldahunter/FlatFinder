@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "London N18 2UE, United Kingdom", "geometry": {"location": {"lat": 51.6147411, "lng": -0.0670895}, "viewport": {"northeast": {"lat": 51.61603022989272, "lng": -0.06599032010727776}, "southwest": {"lat": 51.61333057010728, "lng": -0.0686899798927222}}}, "name": "Silver Street", "place_id": "ChIJuyqjg5YedkgRSESVcRzT0K8"}

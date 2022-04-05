@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "London NW6 2LS, United Kingdom", "geometry": {"location": {"lat": 51.5466852, "lng": -0.1909282}, "viewport": {"northeast": {"lat": 51.54807962989272, "lng": -0.1896659701072778}, "southwest": {"lat": 51.54537997010727, "lng": -0.1923656298927222}}}, "name": "West Hampstead", "place_id": "ChIJseoKK3gQdkgRKQC6BX0PzKQ"}

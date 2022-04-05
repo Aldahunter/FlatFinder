@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "London SE20 8PT, United Kingdom", "geometry": {"location": {"lat": 51.4121479, "lng": -0.06570469999999999}, "viewport": {"northeast": {"lat": 51.41360227989273, "lng": -0.06446812010727779}, "southwest": {"lat": 51.41090262010728, "lng": -0.06716777989272221}}}, "name": "Anerley", "place_id": "ChIJxY3qDGsBdkgR-dXjDu-loPo"}

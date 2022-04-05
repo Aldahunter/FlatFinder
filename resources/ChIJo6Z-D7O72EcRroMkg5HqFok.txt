@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "Station Rd, Upminster RM14 2TD, United Kingdom", "geometry": {"location": {"lat": 51.5589642, "lng": 0.2506216}, "viewport": {"northeast": {"lat": 51.56023442989272, "lng": 0.25372695}, "southwest": {"lat": 51.55753477010727, "lng": 0.2490991500000001}}}, "name": "Upminster", "place_id": "ChIJo6Z-D7O72EcRroMkg5HqFok"}

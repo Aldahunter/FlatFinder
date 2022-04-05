@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "Ilford IG6 3AA, United Kingdom", "geometry": {"location": {"lat": 51.6042765, "lng": 0.0946925}, "viewport": {"northeast": {"lat": 51.60565302989272, "lng": 0.09602457989272221}, "southwest": {"lat": 51.60295337010727, "lng": 0.09332492010727778}}}, "name": "Hainault tube station", "place_id": "ChIJ4YE9B_6j2EcR-i36l2eFHQc"}

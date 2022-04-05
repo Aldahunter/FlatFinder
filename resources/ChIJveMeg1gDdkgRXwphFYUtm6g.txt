@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "Borough High St, London SE1 1JX, United Kingdom", "geometry": {"location": {"lat": 51.5012449, "lng": -0.0936138}, "viewport": {"northeast": {"lat": 51.50208032989272, "lng": -0.0914769}, "southwest": {"lat": 51.49938067010727, "lng": -0.09432610000000002}}}, "name": "Borough", "place_id": "ChIJveMeg1gDdkgRXwphFYUtm6g"}

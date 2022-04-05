@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "Oxford St, London W1T 7RJ, United Kingdom", "geometry": {"location": {"lat": 51.5162811, "lng": -0.1300406}, "viewport": {"northeast": {"lat": 51.51746347989272, "lng": -0.1279904}, "southwest": {"lat": 51.51476382010728, "lng": -0.1361912}}}, "name": "Tottenham Court Road", "place_id": "ChIJUwzMay0bdkgR2il_ihMRcME"}

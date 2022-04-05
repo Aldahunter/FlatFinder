@@ -1,12 +1,11 @@
-import json
-from datetime import datetime
 from typing import Union, cast
 from requests import get
-from requests.models import HTTPError, Request, Response
-from .jsonType import CredentialsJSON, PlaceJSON, ResponseJSON
 from requests.models import HTTPError, Response
-from .APIQuery import APIQuery
-from .jsonType import CredentialsJSON, PlaceJSON, ResponseJSON
+from json import load as load_json
+from requests.models import HTTPError, Response
+
+from src.APIQuery import APIQuery
+from src.jsonType import CredentialsJSON, PlaceResponseJSON, ResponseJSON#, NoneDict
 
 class APIGateway:
 
@@ -26,7 +25,7 @@ class APIGateway:
     
     ### Public methods ###
     
-    def find_place(self, place: str) -> PlaceJSON:
+    def find_place(self, place: str) -> PlaceResponseJSON:
         query: APIQuery = APIQuery(
             input=place,
             inputtype="textquery",
@@ -35,7 +34,7 @@ class APIGateway:
             #locationbias=LONDON_LAT_LONG}
         )
         response_json: ResponseJSON = self._get("place/findplacefromtext", query)
-        return cast(PlaceJSON, response_json)
+        return cast(PlaceResponseJSON, response_json)
     
     
     ### Private methods ###
@@ -48,9 +47,14 @@ class APIGateway:
         print("URL: ", response.url)
         return self._validate_response(response)
     
+    def _get_response_json(self, response: Response) -> ResponseJSON:
+        response_json: dict[str, object] = response.json()
+        #response_dict: NoneDict[str, object] = NoneDict(response_json)
+        return cast(ResponseJSON, response_json)
+    
     def _validate_response(self, response: Response) -> ResponseJSON:
         response.raise_for_status()
-        response_json: ResponseJSON = response.json()
+        response_json: ResponseJSON = self._get_response_json(response)
         if response_json['status'] != "OK":
             err_msg: str = "{code} ERROR: {status} for url: {url}".format(code=response.status_code,
                                                                           status=response_json['status'],
@@ -60,7 +64,7 @@ class APIGateway:
     
     def _load_credentials(self) -> CredentialsJSON:
         with open(self._CREDENTIALS_JSON) as json_file:
-            credentials_json: CredentialsJSON = json.load(json_file)
+            credentials_json: CredentialsJSON = load_json(json_file)
         return credentials_json
 
     def _get_api_key(self) -> None:

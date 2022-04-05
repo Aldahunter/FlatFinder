@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "Holloway Rd, London N5 1RA, United Kingdom", "geometry": {"location": {"lat": 51.5459924, "lng": -0.1045902}, "viewport": {"northeast": {"lat": 51.54724827989272, "lng": -0.10203795}, "southwest": {"lat": 51.54454862010728, "lng": -0.10684095}}}, "name": "Highbury & Islington", "place_id": "ChIJHb-IM2UbdkgRAH_TlUfyXB0"}

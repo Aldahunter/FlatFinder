@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "London EC2Y 9AG, United Kingdom", "geometry": {"location": {"lat": 51.5184165, "lng": -0.0889151}, "viewport": {"northeast": {"lat": 51.51974087989272, "lng": -0.08746712010727777}, "southwest": {"lat": 51.51704122010727, "lng": -0.0901667798927222}}}, "name": "Moorgate", "place_id": "ChIJEWNLkKscdkgRaKnhSHUvRNo"}

@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "London W12 7FX, United Kingdom", "geometry": {"location": {"lat": 51.5100085, "lng": -0.2242417}, "viewport": {"northeast": {"lat": 51.51118857989272, "lng": -0.2230457201072778}, "southwest": {"lat": 51.50848892010728, "lng": -0.2257453798927222}}}, "name": "Wood Lane", "place_id": "ChIJ_6hxS9cPdkgR5NBU94X_tBE"}

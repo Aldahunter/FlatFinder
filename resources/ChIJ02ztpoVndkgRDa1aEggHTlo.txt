@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "Amersham HP6 5AZ, United Kingdom", "geometry": {"location": {"lat": 51.67417649999999, "lng": -0.607387}, "viewport": {"northeast": {"lat": 51.67560882989272, "lng": -0.6060146701072776}, "southwest": {"lat": 51.67290917010727, "lng": -0.6087143298927221}}}, "name": "Amersham", "place_id": "ChIJ02ztpoVndkgRDa1aEggHTlo"}

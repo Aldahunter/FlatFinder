@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "London E17 7BL, United Kingdom", "geometry": {"location": {"lat": 51.5809955, "lng": -0.0329614}, "viewport": {"northeast": {"lat": 51.58237207989271, "lng": -0.03151497010727779}, "southwest": {"lat": 51.57967242010727, "lng": -0.03421462989272222}}}, "name": "St. James Street", "place_id": "ChIJMRi1U8YddkgRp3QAAXQ7Cv8"}

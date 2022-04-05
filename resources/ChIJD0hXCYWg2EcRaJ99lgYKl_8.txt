@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "London E4 6AL, United Kingdom", "geometry": {"location": {"lat": 51.6331421, "lng": 0.0098588}, "viewport": {"northeast": {"lat": 51.63450202989273, "lng": 0.0117756}, "southwest": {"lat": 51.63180237010728, "lng": 0.008991199999999998}}}, "name": "Chingford", "place_id": "ChIJD0hXCYWg2EcRaJ99lgYKl_8"}

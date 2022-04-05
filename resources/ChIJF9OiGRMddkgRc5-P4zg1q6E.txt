@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "White Post Ln, London E9 5LN, United Kingdom", "geometry": {"location": {"lat": 51.5435421, "lng": -0.0241583}, "viewport": {"northeast": {"lat": 51.54470747989272, "lng": -0.02323084999999999}, "southwest": {"lat": 51.54200782010727, "lng": -0.02629665}}}, "name": "Hackney Wick", "place_id": "ChIJF9OiGRMddkgRc5-P4zg1q6E"}

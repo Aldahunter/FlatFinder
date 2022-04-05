@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "London W14 9DA, United Kingdom", "geometry": {"location": {"lat": 51.49033060000001, "lng": -0.2137945}, "viewport": {"northeast": {"lat": 51.49169187989272, "lng": -0.2121660701072778}, "southwest": {"lat": 51.48899222010728, "lng": -0.2148657298927222}}}, "name": "Barons Court", "place_id": "ChIJXzdQRL4PdkgRUkNvZTFFZPs"}

@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "London, United Kingdom", "geometry": {"location": {"lat": 51.4952103, "lng": -0.1438979}, "viewport": {"northeast": {"lat": 51.49656012989272, "lng": -0.1425480701072778}, "southwest": {"lat": 51.49386047010728, "lng": -0.1452477298927222}}}, "name": "Victoria Station", "place_id": "ChIJ1QGgyiEFdkgRYIJN91D0KTI"}

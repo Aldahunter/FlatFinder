@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "Watford WD17 2NW, United Kingdom", "geometry": {"location": {"lat": 51.652656, "lng": -0.3917363}, "viewport": {"northeast": {"lat": 51.65403837989272, "lng": -0.3902967701072777}, "southwest": {"lat": 51.65133872010727, "lng": -0.3929964298927222}}}, "name": "Watford High Street", "place_id": "ChIJFy5-acVqdkgRG6ICSKl1NLY"}

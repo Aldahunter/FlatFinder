@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "London E4 9LA, United Kingdom", "geometry": {"location": {"lat": 51.6083571, "lng": -9.6e-05}, "viewport": {"northeast": {"lat": 51.60949997989272, "lng": 0.0009882298927222158}, "southwest": {"lat": 51.60680032010728, "lng": -0.001711429892722216}}}, "name": "Highams Park", "place_id": "ChIJgR95nwIedkgRjYyuU0JdEnM"}

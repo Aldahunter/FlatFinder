@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "London W1J 9HP, United Kingdom", "geometry": {"location": {"lat": 51.510121, "lng": -0.1341683}, "viewport": {"northeast": {"lat": 51.51123307989272, "lng": -0.1332118}, "southwest": {"lat": 51.50853342010728, "lng": -0.1359998}}}, "name": "Piccadilly Circus Station", "place_id": "ChIJvVRe4NMEdkgRw3WgQO_J9KM"}

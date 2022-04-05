@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "London NW1 2JA, United Kingdom", "geometry": {"location": {"lat": 51.5343501, "lng": -0.1388961}, "viewport": {"northeast": {"lat": 51.53572947989272, "lng": -0.1376238201072778}, "southwest": {"lat": 51.53302982010727, "lng": -0.1403234798927222}}}, "name": "Mornington Crescent", "place_id": "ChIJuTbdNyAbdkgRoy77XC0qgRE"}

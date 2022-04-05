@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "London NW1 9LS, United Kingdom", "geometry": {"location": {"lat": 51.5418284, "lng": -0.1391326}, "viewport": {"northeast": {"lat": 51.54306787989272, "lng": -0.1374667201072778}, "southwest": {"lat": 51.54036822010728, "lng": -0.1401663798927222}}}, "name": "Camden Road", "place_id": "ChIJYzLI0R0bdkgRMcW0SIavN-Y"}

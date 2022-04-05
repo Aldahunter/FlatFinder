@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "London N22 5JU, United Kingdom", "geometry": {"location": {"lat": 51.5974392, "lng": -0.1097711}, "viewport": {"northeast": {"lat": 51.59871552989272, "lng": -0.1085171701072778}, "southwest": {"lat": 51.59601587010728, "lng": -0.1112168298927222}}}, "name": "Wood Green", "place_id": "ChIJSQ9_Q-IbdkgR37glYj2Sgek"}

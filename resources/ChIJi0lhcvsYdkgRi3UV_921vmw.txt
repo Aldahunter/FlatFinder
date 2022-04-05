@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "London N14 4UT, United Kingdom", "geometry": {"location": {"lat": 51.647608, "lng": -0.13211}, "viewport": {"northeast": {"lat": 51.64896092989272, "lng": -0.1308071701072778}, "southwest": {"lat": 51.64626127010727, "lng": -0.1335068298927222}}}, "name": "Oakwood tube station", "place_id": "ChIJi0lhcvsYdkgRi3UV_921vmw"}

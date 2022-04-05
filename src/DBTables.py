@@ -1,18 +1,27 @@
-from src.DBBaseTable import _base_repr, Base, _primary_column
+# Need to ignore typing assignment rule in this module to ensure 
+# that when these classes are interacted with they act as intended.
+# type: ignore [assignment]
+
+from datetime import datetime, timedelta
+from sys import modules 
+from src.DBBaseTable import _base_repr, Base, _primary_column, UTCDateTime
 from turtle import back
-from typing import Type, cast
-from sqlalchemy import Column, Float, ForeignKey, Integer, Sequence, String
-import sqlalchemy
+from typing import Generic, Type, TypeVar, cast
+from sqlalchemy import TIMESTAMP, Column, Float, ForeignKey, Integer, Sequence, String
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import relationship
+from sqlalchemy.sql.functions import now as sql_now, current_timestamp as sql_current_timestamp
 
 class LatLongCoords(Base):
     __tablename__: str = 'lat_long_coords'
     __repr__ = _base_repr
 
-    id = _primary_column('lat_long_coords_id_seq')
-    lat = Column(Float(6))
-    lng = Column(Float(6))
+    id: int = _primary_column('lat_long_coords_id_seq')
+    lat: float = Column(Float(6), nullable=False)
+    lng: float = Column(Float(6), nullable=False)
+
+    # def __init__(self, lat: float = None, lng: float = None, **kwargs: object) -> None:
+    #     super().__init__(lat=lat, lng=lng, **kwargs)
 
 
     
@@ -20,37 +29,55 @@ class Viewport(Base):
     __tablename__: str = 'viewports'
     __repr__ = _base_repr
 
-    id: Column[int] = _primary_column('viewport_id_seq')
-    northeast_id: Column[object] = Column(ForeignKey('lat_long_coords.id'))
-    southwest_id: Column[object] = Column(ForeignKey('lat_long_coords.id'))
+    id: int = _primary_column('viewport_id_seq')
+    northeast_id: int = Column(ForeignKey('lat_long_coords.id'), nullable=False)
+    southwest_id: int = Column(ForeignKey('lat_long_coords.id'), nullable=False)
 
-    geometry: 'Geometry' = relationship('Geometry', back_populates='viewport') # type: ignore
-    northeast : 'LatLongCoords' = relationship('LatLongCoords', foreign_keys=northeast_id) # type: ignore
-    southwest : 'LatLongCoords' = relationship('LatLongCoords', foreign_keys=southwest_id) # type: ignore
+    geometry: 'Geometry' = relationship('Geometry', back_populates='viewport')
+    northeast : 'LatLongCoords' = relationship('LatLongCoords', foreign_keys=northeast_id)
+    southwest : 'LatLongCoords' = relationship('LatLongCoords', foreign_keys=southwest_id)
     
 class Geometry(Base):
     __tablename__: str = 'geometries'
     __repr__ = _base_repr
 
-    id = _primary_column('geometry_id_seq')
-    location_id: Column[object] = Column(ForeignKey('lat_long_coords.id'))
-    viewport_id: Column[object] = Column(ForeignKey('viewports.id'))
+    id: int = _primary_column('geometry_id_seq')
+    location_id: int = Column(ForeignKey('lat_long_coords.id'), nullable=False)
+    viewport_id: int = Column(ForeignKey('viewports.id'), nullable=False)
 
-    place: 'Place' = relationship('Place', back_populates='geometry') # type: ignore
-    location : 'LatLongCoords' = relationship('LatLongCoords') # type: ignore
-    viewport : 'Viewport' = relationship('Viewport', back_populates='geometry') # type: ignore
+    place: 'Place' = relationship('Place', back_populates='geometry')
+    location: 'LatLongCoords' = relationship('LatLongCoords')
+    viewport: 'Viewport' = relationship('Viewport', back_populates='geometry')
 
+class PlaceQuery(Base):
+    __tablename__: str = 'place_queries'
+    __repr__ = _base_repr
 
+    id: int = _primary_column('place_query_id_seq')
+    search_query: str = Column(String(200), index=True, unique=True, nullable=False)
+    place_id: int = Column(ForeignKey('places.id'), nullable=False)
+
+    place: 'Place' = relationship('Place', back_populates='place_query')
 
 class Place(Base):
     __tablename__: str = 'places'
     __repr__ = _base_repr
 
-    id = _primary_column('place_id_seq')
-    place_id: Column[object] = Column(String(200), index=True)
-    name: Column[object] = Column(String(200), index=True)
-    formatted_address: Column[object] = Column(String(200))
-    business_status: Column[object] = Column(String(12))
-    geometry_id: Column[object] = Column(ForeignKey('geometries.id'))
+    id: int = _primary_column('place_id_seq') 
+    place_id: str = Column(String(200), index=True, unique=True, nullable=False) 
+    name: str = Column(String(200), index=True, nullable=False) 
+    formatted_address: str = Column(String(200)) 
+    business_status: str = Column(String(12)) 
+    geometry_id: int = Column(ForeignKey('geometries.id'))
+    last_updated: datetime = Column(TIMESTAMP, server_default=sql_now(), onupdate=sql_current_timestamp())
 
-    geometry: 'Geometry' = relationship('Geometry', back_populates='place') # type: ignore
+    geometry: 'Geometry' = relationship('Geometry', back_populates='place')
+    place_query: 'PlaceQuery' = relationship('PlaceQuery', order_by=PlaceQuery.id, back_populates='place')
+
+# Table Holder #
+class Entries:
+    Place: Type[Place] = Place
+    PlaceQuery: Type[PlaceQuery] = PlaceQuery
+    Geometry: Type[Geometry] = Geometry
+    Viewport: Type[Viewport] = Viewport
+    LatLongCoords: Type[LatLongCoords] = LatLongCoords

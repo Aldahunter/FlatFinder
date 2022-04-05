@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "London SE16 2UE, United Kingdom", "geometry": {"location": {"lat": 51.4933992, "lng": -0.0478884}, "viewport": {"northeast": {"lat": 51.49474647989272, "lng": -0.04646187010727779}, "southwest": {"lat": 51.49204682010728, "lng": -0.04916152989272221}}}, "name": "Surrey Quays", "place_id": "ChIJDzkQ5R8DdkgReR1nw6f90To"}

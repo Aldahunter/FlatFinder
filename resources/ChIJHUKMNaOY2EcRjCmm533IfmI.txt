@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "Epping CM16 4HW, United Kingdom", "geometry": {"location": {"lat": 51.693684, "lng": 0.113794}, "viewport": {"northeast": {"lat": 51.69522212989272, "lng": 0.1153821798927222}, "southwest": {"lat": 51.69252247010727, "lng": 0.1126825201072778}}}, "name": "Epping", "place_id": "ChIJHUKMNaOY2EcRjCmm533IfmI"}

@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "London E15 2PJ, United Kingdom", "geometry": {"location": {"lat": 51.5338978, "lng": -0.0133798}, "viewport": {"northeast": {"lat": 51.53526072989273, "lng": -0.01178872010727778}, "southwest": {"lat": 51.53256107010728, "lng": -0.01448837989272221}}}, "name": "Pudding Mill Lane", "place_id": "ChIJ1SBBxEIddkgRUJ7wUK79ugk"}

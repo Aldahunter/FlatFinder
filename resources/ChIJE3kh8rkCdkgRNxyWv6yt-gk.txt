@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "London E14 5LL, United Kingdom", "geometry": {"location": {"lat": 51.5034523, "lng": -0.0177002}, "viewport": {"northeast": {"lat": 51.50473802989272, "lng": -0.01390595}, "southwest": {"lat": 51.50203837010728, "lng": -0.02211455}}}, "name": "Canary Wharf", "place_id": "ChIJE3kh8rkCdkgRNxyWv6yt-gk"}

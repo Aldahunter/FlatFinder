@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "London, United Kingdom", "geometry": {"location": {"lat": 51.5754914, "lng": 0.0275308}, "viewport": {"northeast": {"lat": 51.57680312989272, "lng": 0.02892162989272221}, "southwest": {"lat": 51.57410347010727, "lng": 0.02622197010727778}}}, "name": "Wanstead tube station", "place_id": "ChIJMaJTsxWn2EcRoq9XKqM0hjw"}

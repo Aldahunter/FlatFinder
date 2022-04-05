@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "Greenford UB6 8PX, United Kingdom", "geometry": {"location": {"lat": 51.5423355, "lng": -0.3463373}, "viewport": {"northeast": {"lat": 51.54365242989272, "lng": -0.3448560201072777}, "southwest": {"lat": 51.54095277010727, "lng": -0.3475556798927222}}}, "name": "Greenford", "place_id": "ChIJL14Kwe4SdkgRAJlefuo0Wjk"}

@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "London E15 3NB, United Kingdom", "geometry": {"location": {"lat": 51.5324885, "lng": 0.0038001}, "viewport": {"northeast": {"lat": 51.53374007989272, "lng": 0.005145479892722216}, "southwest": {"lat": 51.53104042010727, "lng": 0.002445820107277784}}}, "name": "Abbey Road", "place_id": "ChIJFapKOPSn2EcRHP3RbxxWlTI"}

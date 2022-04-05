@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "United Kingdom", "geometry": {"location": {"lat": 51.495767, "lng": -0.3247429000000001}, "viewport": {"northeast": {"lat": 51.49711682989273, "lng": -0.3233930701072778}, "southwest": {"lat": 51.49441717010728, "lng": -0.3260927298927223}}}, "name": "Boston Manor tube station", "place_id": "ChIJy1o0Ip8NdkgRq6IwaJBtvTk"}

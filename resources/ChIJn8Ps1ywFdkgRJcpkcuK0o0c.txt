@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "Oxford St, London W1R 1FE, United Kingdom", "geometry": {"location": {"lat": 51.5142112, "lng": -0.1485351}, "viewport": {"northeast": {"lat": 51.51535342989272, "lng": -0.1421305}, "southwest": {"lat": 51.51265377010728, "lng": -0.1526085}}}, "name": "Bond Street", "place_id": "ChIJn8Ps1ywFdkgRJcpkcuK0o0c"}

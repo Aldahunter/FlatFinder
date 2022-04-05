@@ -1,0 +1,1 @@
+{"business_status": "OPERATIONAL", "formatted_address": "Romford RM1 1TU, United Kingdom", "geometry": {"location": {"lat": 51.57472449999999, "lng": 0.1826519}, "viewport": {"northeast": {"lat": 51.57607782989272, "lng": 0.1844610798927222}, "southwest": {"lat": 51.57337817010728, "lng": 0.1817614201072778}}}, "name": "Romford", "place_id": "ChIJwwYs0Muk2EcRRE6r92jcn0I"}
