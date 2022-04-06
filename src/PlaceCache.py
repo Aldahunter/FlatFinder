@@ -1,8 +1,8 @@
 from datetime import datetime, timedelta
 from typing import Optional
 
-from src.DBShield import DBShield
 from src.DBTables import Place, PlaceQuery
+from src.DBShield import DBShield
 from src.JsonToDbParser import JsonToDbParser
 from src.PlaceCaller import PlaceCaller
 from src.jsonType import PlaceCandidateJSON

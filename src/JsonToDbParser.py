@@ -1,5 +1,5 @@
-from src.DBTables import Geometry, LatLongCoords, Place, Viewport
 from src.jsonType import PlaceCandidateJSON
+from src.DBTables import Geometry as Geometry, LatLongCoords as LatLongCoords, Place as Place, Viewport as Viewport
 
 class JsonToDbParser:
 

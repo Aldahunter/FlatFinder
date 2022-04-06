@@ -5,9 +5,9 @@ from sqlalchemy.orm import sessionmaker
 from sqlalchemy.orm.query import Query
 from sqlalchemy.orm.session import Session
 from sqlalchemy.engine import Engine
+from src.APIGateway import APIGateway
 
 from src.DBBaseTable import Base
-from src.DBTables import Entries
 from src.StationIntegrityCache import StationIntegrityCache
 
 _T = TypeVar('_T')
@@ -17,7 +17,6 @@ class DBShield:
     session: Session
     sessionmaker: sessionmaker
     base: Type[object]
-    entries: Entries
     meta: MetaData
 
     _logger: logging.Logger
@@ -35,13 +34,10 @@ class DBShield:
 
         self.engine = create_engine('sqlite:///data/FlatFinder.db', echo=show_sql_commands)
         self.base = Base
-        self.entries = Entries()
         self.meta = self.base.metadata
         self.meta.create_all(self.engine)
         self.sessionmaker = sessionmaker(bind=self.engine)
         self.session = self.sessionmaker()
-
-        StationIntegrityCache(self._station_integrity_file_path).get_stations()
     
     def _setup_logger(self) -> None:
         self._logger_file_handler = logging.FileHandler(self._logger_file_name)
@@ -52,6 +48,9 @@ class DBShield:
         self._logger.addHandler(self._logger_file_handler)
         self._logger.setLevel(self._logger_level)
     
+    def ensure_station_entgrity(self, gateway: APIGateway) -> None:
+        StationIntegrityCache(self._station_integrity_file_path, self, gateway).ensure_data_integrity()
+    
     def commit(self) -> None:
         self.session.commit()
     
@@ -60,5 +59,5 @@ class DBShield:
         self.commit()
     
     # Cant do Query[_T]
-    def query(self, entry: Type[_T], *args: object, **kwargs: object) -> Query:
+    def query(self, entry: Type[_T], *args: object, **kwargs: object) -> Query[_T]:
         return self.session.query(entry, *args, **kwargs)

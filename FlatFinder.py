@@ -12,6 +12,7 @@ class FlatFinder:
     def __init__(self) -> None:
         self._APIGW = APIGateway(pathJoin(self._BASE_DIR, "credentials.json"))
         self._DBSHLD = DBShield(pathJoin(self._BASE_DIR, "FlatFinder.db"))
+        self._DBSHLD.ensure_station_entgrity(self._APIGW)
 
 if __name__ == "__main__":
     print("Starting FlatFinder...")

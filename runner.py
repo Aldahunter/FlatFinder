@@ -1,30 +1,31 @@
-import os
-import typing
-import unittest
-import argparse
+from os import path, system
+from typing import cast
+from unittest import TestSuite, TextTestRunner, TestResult, defaultTestLoader
+from argparse import ArgumentParser, Namespace
 
-this_file = os.path.join(os.path.dirname(__file__), 'activate_this.py')
-exec(open(this_file).read(), {'__file__': this_file})
+this_file: str = path.join(path.dirname(__file__), 'activate_this.py')
+this_file_dict: dict[str, str] = {'__file__': this_file}
+exec(open(this_file).read(), this_file_dict)
 
-class Args(argparse.Namespace):
+class Args(Namespace):
     mode: str
 
 def run() -> int:
-    return os.system("python -m mypy .\FlatFinder.py")
+    return system("python -m mypy .\FlatFinder.py")
 
 def run_tests() -> int:
-    start_dir = "."
-    tests = unittest.defaultTestLoader.discover(start_dir, pattern = 'test*.py')
-    runner = unittest.TextTestRunner()
-    result = runner.run(tests)
+    start_dir: str = "."
+    tests: TestSuite = defaultTestLoader.discover(start_dir, pattern = 'test*.py')
+    runner: TextTestRunner = TextTestRunner()
+    result: TestResult = runner.run(tests)
     return len(result.errors) + len(result.failures)
 
 
-parser = argparse.ArgumentParser()
+parser: ArgumentParser = ArgumentParser()
 parser.add_argument('--mode', choices=['type-check', 'tests', 'both'], default='both')
-args = typing.cast(Args, parser.parse_args())
+args: Args = cast(Args, parser.parse_args())
 
-error_code = 0
+error_code: int = 0
 if args.mode in ['type-check', 'both']:
         error_code += run()
 if args.mode in ['tests', 'both']:

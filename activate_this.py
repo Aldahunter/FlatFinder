@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# type: ignore [attr-defined]
 """Activate virtualenv for current interpreter:
 
 Use exec(open(this_file).read(), {'__file__': this_file}).

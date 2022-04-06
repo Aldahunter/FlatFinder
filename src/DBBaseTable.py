@@ -20,37 +20,8 @@ def _base_repr(self: Base) -> str:
     return f"<{cast(str, self.__getattribute__('__tablename__'))}(" \
         + ", ".join(f"{k}={v}" for (k, v) in columns.items()) \
         + ")>"
+    # ToDo: update to for Base classes to just show their id
 
 def _primary_column(sequence_name: str) -> Column[int]:
     return Column(Integer, cast(Sequence[str], Sequence(sequence_name)),
                   primary_key=True, index=True, unique=True, nullable=False)
-
-class UTCDateTime(TypeDecorator):
-    impl = DateTime
-    cache_ok = True
-
-    def process_bind_param(self, value: datetime, dialect: object) -> datetime:
-        if value is not None:
-            if not value.tzinfo:
-                raise TypeError(f"Got naive datetime while timezone-aware is expected: {value}")
-            value = value.astimezone(timezone.utc).replace(
-                tzinfo=None
-            )
-        return value
-
-    def process_result_value(self, value: datetime, dialect: object) -> datetime:
-        if value is not None:
-            value = value.replace(tzinfo=timezone.utc)
-        return value
-
-
-# class utcnow(expression.FunctionElement[DateTime]):
-#     type: DateTime = DateTime() # type: ignore
-#     inherit_cache: bool = True
-
-# @compiles(utcnow, 'postgresql')  # type: ignore
-# def pg_utcnow(element: object, compiler: object, **kw: object) -> str:
-#     return "TIMEZONE('utc', CURRENT_TIMESTAMP)"
-# @compiles(utcnow, 'mssql')  # type: ignore
-# def ms_utcnow(element: object, compiler: object, **kw: object) -> str:
-#     return "GETUTCDATE()"

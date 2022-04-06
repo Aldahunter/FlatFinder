@@ -4,7 +4,7 @@
 
 from datetime import datetime, timedelta
 from sys import modules 
-from src.DBBaseTable import _base_repr, Base, _primary_column, UTCDateTime
+from src.DBBaseTable import _base_repr, Base, _primary_column
 from turtle import back
 from typing import Generic, Type, TypeVar, cast
 from sqlalchemy import TIMESTAMP, Column, Float, ForeignKey, Integer, Sequence, String
@@ -68,11 +68,3 @@ class Place(Base):
 
     geometry: 'Geometry' = relationship('Geometry', back_populates='place')
     place_query: 'PlaceQuery' = relationship('PlaceQuery', order_by=PlaceQuery.id, back_populates='place')
-
-# Table Holder #
-class Entries:
-    Place: Type[Place] = Place
-    PlaceQuery: Type[PlaceQuery] = PlaceQuery
-    Geometry: Type[Geometry] = Geometry
-    Viewport: Type[Viewport] = Viewport
-    LatLongCoords: Type[LatLongCoords] = LatLongCoords
