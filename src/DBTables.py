@@ -19,11 +19,6 @@ class LatLongCoords(Base):
     id: int = _primary_column('lat_long_coords_id_seq')
     lat: float = Column(Float(6), nullable=False)
     lng: float = Column(Float(6), nullable=False)
-
-    # def __init__(self, lat: float = None, lng: float = None, **kwargs: object) -> None:
-    #     super().__init__(lat=lat, lng=lng, **kwargs)
-
-
     
 class Viewport(Base):
     __tablename__: str = 'viewports'

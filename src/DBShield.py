@@ -8,6 +8,7 @@ from sqlalchemy.engine import Engine
 
 from src.DBBaseTable import Base
 from src.DBTables import Entries
+from src.StationIntegrityCache import StationIntegrityCache
 
 _T = TypeVar('_T')
 
@@ -26,6 +27,8 @@ class DBShield:
     _logger_file_handler: logging.FileHandler
     _logger_formatter: logging.Formatter
 
+    _station_integrity_file_path: str = r"C:\DATA\repos\FlatFinder\resources\ListOfStations.txt"
+
 
     def __init__(self, path: str, show_sql_commands: bool = False):
         self._setup_logger()
@@ -37,6 +40,8 @@ class DBShield:
         self.meta.create_all(self.engine)
         self.sessionmaker = sessionmaker(bind=self.engine)
         self.session = self.sessionmaker()
+
+        StationIntegrityCache(self._station_integrity_file_path).get_stations()
     
     def _setup_logger(self) -> None:
         self._logger_file_handler = logging.FileHandler(self._logger_file_name)
