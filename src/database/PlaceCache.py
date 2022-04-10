@@ -1,11 +1,11 @@
 from datetime import datetime, timedelta
 from typing import Optional
 
-from src.DBTables import Place, PlaceQuery
+from src.database.DBTables import Place, PlaceQuery
 from src.DBShield import DBShield
-from src.JsonToDbParser import JsonToDbParser
-from src.PlaceCaller import PlaceCaller
-from src.jsonType import PlaceCandidateJSON
+from src.database.JsonToDbParser import JsonToDbParser
+from src.api.PlaceCaller import PlaceCaller
+from src.api.jsonType import PlaceCandidateJSON
 from src.APIGateway import APIGateway
 
 

@@ -1,14 +1,8 @@
-# Need to ignore typing assignment rule in this module to ensure 
-# that when these classes are interacted with they act as intended.
-# type: ignore [assignment]
+# type: ignore [syntax]
 
-from datetime import datetime, timedelta
-from sys import modules 
-from src.DBBaseTable import _base_repr, Base, _primary_column
-from turtle import back
-from typing import Generic, Type, TypeVar, cast
-from sqlalchemy import TIMESTAMP, Column, Float, ForeignKey, Integer, Sequence, String
-from sqlalchemy.ext.declarative import declarative_base
+from datetime import datetime
+from src.database.DBBaseTable import _base_repr, Base, _primary_column
+from sqlalchemy import TIMESTAMP, Column, Float, ForeignKey, String
 from sqlalchemy.orm import relationship
 from sqlalchemy.sql.functions import now as sql_now, current_timestamp as sql_current_timestamp
 

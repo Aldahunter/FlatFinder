@@ -1,5 +1,5 @@
-from src.jsonType import PlaceCandidateJSON
-from src.DBTables import Geometry as Geometry, LatLongCoords as LatLongCoords, Place as Place, Viewport as Viewport
+from src.api.jsonType import PlaceCandidateJSON
+from src.database.DBTables import Geometry, LatLongCoords, Place, Viewport
 
 class JsonToDbParser:
 
@@ -22,8 +22,7 @@ class JsonToDbParser:
                         southwest = LatLongCoords(
                             lat = place_json.get('geometry', {}).get('viewport', {}).get('southwest', {}).get('lat'),
                             lng = place_json.get('geometry', {}).get('viewport', {}).get('southwest', {}).get('lng')
-                        )))
-        )
+                        ))))
 
 
     ### Get DBTable columns, see which are foreign keys

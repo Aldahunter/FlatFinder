@@ -1,4 +1,4 @@
-from src.jsonType import PlaceCandidateJSON
+from src.api.jsonType import PlaceCandidateJSON
 from src.APIGateway import APIGateway
 
 class PlaceCaller:

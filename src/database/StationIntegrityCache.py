@@ -2,7 +2,7 @@
 from os.path import isfile
 from src.APIGateway import APIGateway
 from src.DBShield import DBShield
-from src.PlaceCache import PlaceCache
+from src.database.PlaceCache import PlaceCache
 
 
 class StationIntegrityCache:

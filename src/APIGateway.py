@@ -4,8 +4,8 @@ from requests.models import HTTPError, Response
 from json import load as load_json
 from requests.models import HTTPError, Response
 
-from src.APIQuery import APIQuery
-from src.jsonType import CredentialsJSON, PlaceResponseJSON, ResponseJSON#, NoneDict
+from src.api.APIQuery import APIQuery
+from src.api.jsonType import CredentialsJSON, PlaceResponseJSON, ResponseJSON
 
 class APIGateway:
 

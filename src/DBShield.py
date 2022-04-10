@@ -7,8 +7,7 @@ from sqlalchemy.orm.session import Session
 from sqlalchemy.engine import Engine
 from src.APIGateway import APIGateway
 
-from src.DBBaseTable import Base
-from src.StationIntegrityCache import StationIntegrityCache
+from src.database.DBBaseTable import Base
 
 _T = TypeVar('_T')
 
@@ -49,6 +48,7 @@ class DBShield:
         self._logger.setLevel(self._logger_level)
     
     def ensure_station_entgrity(self, gateway: APIGateway) -> None:
+        from src.database.StationIntegrityCache import StationIntegrityCache
         StationIntegrityCache(self._station_integrity_file_path, self, gateway).ensure_data_integrity()
     
     def commit(self) -> None:
@@ -58,6 +58,5 @@ class DBShield:
         self.session.add_all(entries)
         self.commit()
     
-    # Cant do Query[_T]
-    def query(self, entry: Type[_T], *args: object, **kwargs: object) -> Query[_T]:
+    def query(self, entry: Type[_T], *args: object, **kwargs: object) -> 'Query[_T]':
         return self.session.query(entry, *args, **kwargs)

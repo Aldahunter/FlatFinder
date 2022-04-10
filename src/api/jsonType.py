@@ -1,20 +1,20 @@
-from typing import TypeVar, TypedDict, cast
+from typing import TypeVar, TypedDict
 
 ### Generic Classes ###
 KT = TypeVar('KT'); VT = TypeVar('VT')
 
 ### Base API Return JSONs
-class LatLongCoords(TypedDict):
+class LatLongCoordsJSON(TypedDict):
     lat: float
     lng: float
 
-class Viewport(TypedDict):
-    northeast: LatLongCoords
-    southwest: LatLongCoords
+class ViewportJSON(TypedDict):
+    northeast: LatLongCoordsJSON
+    southwest: LatLongCoordsJSON
 
-class Geometry(TypedDict):
-    location: LatLongCoords
-    viewport: Viewport
+class GeometryJSON(TypedDict):
+    location: LatLongCoordsJSON
+    viewport: ViewportJSON
 
 
 ### API Return JSONs
@@ -26,7 +26,7 @@ class PlaceResponseJSON(ResponseJSON):
 class PlaceCandidateJSON(TypedDict, total=False):
     business_status: str
     formatted_address: str
-    geometry: Geometry
+    geometry: GeometryJSON
     name: str
     place_id: str
 
